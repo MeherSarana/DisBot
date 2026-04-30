@@ -6,7 +6,6 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-
 TOKEN = os.getenv("DISCORD_TOKEN")
 
 
@@ -284,4 +283,3 @@ async def disconnect(ctx):
         await ctx.send("Disconnected")
 
 bot.run(TOKEN)
-# bot.run("MTQ3OTQ4MTIyMzg4MDM3NjQyMg.GeVQXn.dC5ppAB_AvSgFjQ73RAVRmYNyyYHQYNmygc3Bk")
