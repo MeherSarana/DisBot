@@ -284,4 +284,3 @@ async def disconnect(ctx):
         await ctx.send("Disconnected")
 
 bot.run(TOKEN)
-# bot.run("MTQ3OTQ4MTIyMzg4MDM3NjQyMg.GeVQXn.dC5ppAB_AvSgFjQ73RAVRmYNyyYHQYNmygc3Bk")
