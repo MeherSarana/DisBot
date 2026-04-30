@@ -282,4 +282,8 @@ async def disconnect(ctx):
         music_queue.clear()
         await ctx.send("Disconnected")
 
+<<<<<<< HEAD
 bot.run(TOKEN)
+=======
+bot.run(TOKEN)
+>>>>>>> 20aaee02773d99e25c78f0e15927eb06de915379
