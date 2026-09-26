@@ -44,6 +44,7 @@ ytdl_format_options = {
     "noplaylist": True,
     "quiet": True,
     "default_search": "ytsearch",
+    "cookiesfrombrowser": ("chrome",),
     "js_runtimes": {
         "deno": {}
     }
